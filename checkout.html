@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>CHECKOUT | Fanworld ID</title>
+	<link rel="icon" href="img/fw1.png" type="image/x-icon"/>
+	
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Bootstrap CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+	<link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
+
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- navbar -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
+	<div class="container">
+		<a class="navbar-brand" href="index.html">
+			<img src="img/fw.png" width="60" height="60" alt="">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+		aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="oi oi-menu"></span> Menu
+	</button>
+
+	<div class="collapse navbar-collapse" id="ftco-nav">
+		<div class="container">
+			<center>
+				<div class="col-lg-9 sidebar ftco-animate">
+					<form action="#" class="search-form">
+						<div class="form-group">
+							<span class="icon ion-ios-search"></span>
+							<input type="text" class="form-control" placeholder="Search Here">
+
+						</div>
+					</form>
+				</div>
+			</div>
+		</center>
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item"><a href="index.html" class="nav-link">Beranda</a></li>
+			<li class="nav-item"><a href="produk.html" class="nav-link">Produk</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">Testimoni</a></li>
+			<li class="nav-item">
+				<a class="nav-link dropdown-toggle" href="about.html">Pusat Bantuan</a>
+			</li>
+			<li class="nav-item active cta cta-colored"><a href="cart.html" class="nav-link"><span class="icon-shopping_cart"></span>[0]</a></li>
+		</ul>
+	</div>
+</div>
+</nav>
+<!-- END nav -->
+
+
+
+
+<section class="ftco-section">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="form-group">
+				<div class="col-md-6">
+					<div class="cart-detail cart-total p-3 p-md-4"></br>
+						<h3>Detail Pesanan </h3>
+						<table id="penjualan" class="table table-responsive table-hover">
+							<thead>
+								<tr><th>Produk</th><th>Jumlah</th><th>Harga</th>
+									<th align="center"><span id="amount" class="amount">Subtotal</span> </th></tr>
+								</thead>
+								<tfoot>
+									<tr><th><h5><strong>TOTAL</strong></h5></th><td colspan="2"></td>
+										<td align="right">
+											<h3><span id="total" class="total text-success">Total</span></h3>
+										</td>
+									</tr>
+								</tfoot>
+								<tbody>
+									<tr><td>Lover - Taylor Swift </br> [Box Set CD]</td>
+										<td>
+											<select value="" name="qty" class="qty form-control">
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="4">4</option>
+												<option value="5">5</option>
+											</select>
+										</td>
+										<td>
+											<input type="text" value="270000" class="price form-control" disabled="true">
+										</td>
+										<td align="center">
+											<h4><span id="amount" class="amount">Rp. 0</span></h4>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+
+					<div class="cart-detail  p-3 p-md-4">
+						<div class="form-group">
+							<div class="col-md-6">
+								<h4 class="billing-heading mb-3">Jasa Pengiriman</h4>
+								<div class="select-wrap">
+									<select name="" id="" class="form-control">
+										<option value="">J&T</option>
+										<option value="">JNE</option>
+										<option value="">Si Cepat</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="cart-detail  p-3 p-md-4">
+								<h3 class="billing-heading mb-2">Metode pembayaran</h3>
+								<div class="form-group">
+									<div class="col-md-6">
+										<div class="radio">
+											<label><input type="radio" name="optradio" class="mr-2"> Tranfer Bank</label>
+										</div>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-md-6">
+										<div class="checkbox">
+											<label><input type="checkbox" value="" class="mr-2"> I have read and accept the terms and conditions</label>
+											<br><p><a href="#"class="btn btn-primary py-3 px-4">Place an order</a></p>
+										</div>
+									</div>
+								</div>
+
+								<form action="#" class="billing-form">
+									<br><h3 class="mb-4 billing-heading">Alamat Pengiriman</h3>
+									<div class="row align-items-end">
+										<div class="w-100"></div>
+										<div class="col-md-6 ">
+											<div class="form-group">
+												<label for="name">Nama Penerima</label>
+												<input type="text" class="form-control" placeholder="">
+											</div>
+										</div>
+										<div class="w-100"></div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<label for="nohp">No HP</label>
+												<input type="text" class="form-control" placeholder="">
+											</div>
+										</div>
+										<div class="w-100"></div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<label for="address">Alamat Lengkap</label>
+												<input type="text" class="form-control" placeholder="">
+											</div>
+										</div>
+										<div class="w-100"></div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<label for="postcode">Kode Pos</label>
+												<input type="text" class="form-control" placeholder="">
+											</div>
+										</div>
+										<div class="w-100"></div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<label for="towncity">Kota / Kabupaten</label>
+												<input type="text" class="form-control" placeholder="">
+											</div>
+										</div>
+										<div class="w-100"></div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<label for="provinsi">Provinsi</label>
+												<input type="text" class="form-control" placeholder="">
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>
+
+
+<!-- .section -->
+
+
+<!-- footer -->
+<footer class="ftco-footer ftco-section">
+	<div class="container">
+		<div class="row">
+			<div class="mouse">
+				<a href="#" class="mouse-icon">
+					<div class="mouse-wheel"><span class="ion-ios-arrow-up"></span></div>
+				</a>
+			</div>
+		</div>
+		<div class="container-fluid p-0">
+			<div class="row">
+				<div class="col-md-6" align="left">
+					<div class="ftco-footer-widget mb-4 ">
+						<h2 class="ftco-heading-2">About Us</h2>
+						<ul class="ftco-footer-social list-unstyled float-md-center float-center">
+							<li class="ftco-animate"><a href="https://twitter.com/fanworldid?lang=en" target="_blank">
+								<span class="icon-twitter"></span></a></li>
+								<li class="ftco-animate"><a href="https://www.instagram.com/fanworldid/?hl=en" target="_blank">
+									<span class="icon-instagram"></span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-6" align="left">
+							<div class="ftco-footer-widget mb-4">
+								<h2 class="ftco-heading-2">Have a Questions?</h2>
+								<div class="block-23 mb-3">
+									<ul class="list-unstyled float-md-center float-center">
+										<li><a href="https://api.whatsapp.com/send?phone=6283893557711" target="_blank"><span class="icon icon-whatsapp"></span><span class="text">+6283893557711</span></a></li>
+										<li><a href="mailto:fanworldid@gmail.com"><span class="icon icon-envelope"></span><span class="text">fanworldid@gmail.com</span></a></li>
+										<li><span class="icon icon-map-marker"></span><span class="text"> DILo Solo, Jl. Kenanga No.9, Purwosari, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57142</span></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 ">
+
+							<p>
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script>
+							</p>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<!-- loader -->
+			<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+			<script src="js/jquery.min.js"></script>
+			<script src="js/jquery-migrate-3.0.1.min.js"></script>
+			<script src="js/popper.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/jquery.easing.1.3.js"></script>
+			<script src="js/jquery.waypoints.min.js"></script>
+			<script src="js/jquery.stellar.min.js"></script>
+			<script src="js/owl.carousel.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>
+			<script src="js/aos.js"></script>
+			<script src="js/jquery.animateNumber.min.js"></script>
+			<script src="js/bootstrap-datepicker.js"></script>
+			<script src="js/scrollax.min.js"></script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+			<script src="js/google-map.js"></script>
+			<script src="js/main.js"></script>
+
+			<script>
+				$(document).ready(function(){
+
+					var quantitiy=0;
+					$('.quantity-right-plus').click(function(e){
+
+		        // Stop acting like a button
+		        e.preventDefault();
+		        // Get the field name
+		        var quantity = parseInt($('#quantity').val());
+		        
+		        // If is not undefined
+
+		        $('#quantity').val(quantity + 1);
+
+
+		            // Increment
+
+		        });
+
+					$('.quantity-left-minus').click(function(e){
+		        // Stop acting like a button
+		        e.preventDefault();
+		        // Get the field name
+		        var quantity = parseInt($('#quantity').val());
+		        
+		        // If is not undefined
+
+		            // Increment
+		            if(quantity>0){
+		            	$('#quantity').val(quantity - 1);
+		            }
+		        });
+
+				});
+			</script>
+
+
+			<SCRIPT>
+				$(document).ready(function(){
+					total();
+					$('.qty').change(function() {
+						total();
+					});
+					$('.amount').change(function() {
+						total();
+					});               
+				});
+
+				function total()
+				{
+					var sum = 0;
+					$('#penjualan > tbody  > tr').each(function() {
+						var qty = $(this).find('option:selected').val();
+						var price = $(this).find('.price').val();
+						var amount = (qty*price)
+						sum+=amount;
+						$(this).find('.amount').text(''+amount);
+					});
+					$('.total').text(sum);
+				}
+			</SCRIPT>
+
+		</body>
+		</html>
